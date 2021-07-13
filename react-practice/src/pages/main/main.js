@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import Routes from "../../Routes";
 import "../../styles/main.css";
 
 class main extends React.Component {
@@ -15,3 +17,5 @@ class main extends React.Component {
     return <div>test??</div>;
   }
 }
+
+export default main;
