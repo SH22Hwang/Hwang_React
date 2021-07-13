@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Routes from "../../Routes";
 import "../../styles/main.css";
 
-class main extends React.Component {
+class Main extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -18,4 +18,4 @@ class main extends React.Component {
   }
 }
 
-export default main;
+export default Main;

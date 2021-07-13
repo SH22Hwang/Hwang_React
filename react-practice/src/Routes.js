@@ -1,19 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import main from "./pages/main/main";
-import hotdeal_info from "./pages/hotdeal_info/hotdeal_info";
-import search from "pages/search/search";
+import Main from "./pages/Main/Main";
+import HotDealInfo from "./pages/HotDealInfo/HotDealInfo";
+import Search from "./pages/Search/Search";
 
 class Routes extends React.Component {
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={main} />
-          <Route exact path="/hotdeal_info" component={hotdeal_info} />
-          <Route exact path="/search" component={search} />
-        </Switch>
-      </Router>
+      // <Router>
+      //   <Switch>
+      //     <Route exact path="/" component={Main} />
+      //     <Route exact path="/hotdeal" component={HotDealInfo} />
+      //     <Route exact path="/search" component={Search} />
+      //   </Switch>
+      // </Router>
+      <div className="main">
+        <Main />
+      </div>
     );
   }
 }
